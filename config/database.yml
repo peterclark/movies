@@ -24,6 +24,6 @@ test:
 production:
   <<: *default
   database: movies
-  host: <%= Rails.application.credentials.aws[:db][:host] %>
-  username: <%= Rails.application.credentials.aws[:db][:username] %>
-  password: <%= Rails.application.credentials.aws[:db][:password] %>
+  # host: <%= Rails.application.credentials.aws[:db][:host] %>
+  # username: <%= Rails.application.credentials.aws[:db][:username] %>
+  # password: <%= Rails.application.credentials.aws[:db][:password] %>
